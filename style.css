@@ -1,0 +1,684 @@
+body{
+    margin: 0;
+    padding: 0;
+   overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box
+}
+
+:where(h1,h2,h3,h4,h5,h6){
+font-family:'proxima nova condensed',sans-serif;
+    
+    
+}
+
+h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p{
+font-family:'open sans',sans-serif;
+}
+
+h1{
+    font-family:'open sans',sans-serif;
+    font-weight: bold
+}
+
+.whatsapp_icon{
+    background: #02bc4e;
+    display:flex;
+    align-items: center;
+    border-radius: 100px;
+    color:#fff;
+    font-size: 25px;
+    position: fixed;
+    bottom:20px;
+    right: 40px;
+    width: 33px;
+    height: 33px;
+    place-content: center;
+}
+
+.top-header {
+    background: #2d3e50;
+    height:5vh;
+    text-align: center;
+    line-height: 33px
+}
+
+.top-header a{
+    color: white;
+    text-decoration: none;
+}
+
+.email{
+    width:50%;
+    text-align: left
+}
+
+.phone{
+    width: 50%;
+    text-align: right
+}
+        
+.email i{
+    color: #ffc000
+
+}
+
+.navbar-brand a{
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-nav a{
+    color: black;
+    font-weight: bold;
+    margin-right:5px
+}
+
+.navbar-nav a:hover{
+    color: #ffc000;
+}
+
+.search_area{
+    width: 50px;
+}
+
+.search_bx input[type=submit]{
+    width: auto;
+    top: 0px;
+    position: absolute;
+    right: 0px;
+    box-shadow: unset;
+    padding: 10px 49px;
+    background: #ffc000;
+    color: #000b26;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon{
+    background-image:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+     
+}
+
+.banner{
+    background-image: url("banner construct.png");
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-content{
+    height:25vh;
+    text-align: center;
+    
+    
+    color:white;
+    margin-top: 100px
+}
+
+.banner-content span{
+    color: #ffc000;
+}
+
+.banner-content h1{
+    font-size: 65px
+}
+
+.more{
+    background-color: #ffc000;
+    border-radius: 300px;
+    width: 15%;
+    height: 6vh;
+}
+
+.title{
+    text-align: center;
+    line-height: inherit;
+    margin-top: 5%
+}
+
+.title span{
+    color:#ffc000;
+}
+
+.icon{
+    margin-top: 5%;
+    margin-left: 5%
+}
+
+.template .col-sm-12{
+    width: 50px
+}
+
+.template{
+    background-color: #2d3e50;
+    text-align: center;
+    margin-left: 3%;
+    width: 255px;
+    color: white;
+    transition: 0.5s;
+    margin-bottom: 3%
+}
+
+.template:hover{
+    color:black;
+    background: transparent;
+    border: 1.5px solid #ffc000;
+    
+}
+
+.template .icon1{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 77px;
+    height: 77px;
+    border-radius: 300px;
+    background-image: url("paint%20brush%20tool.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    background-color: white;
+    margin-left: 79px;
+    
+}
+
+.template:hover .icon1{
+    width: 77px;
+    height: 77px;
+    border-radius: 300px;
+    background-image: url("paint%20brush%20white.png");
+    background-color: #ffc000;
+}
+
+.template h1{
+    font-size: 20px;
+    
+}
+
+.template p{
+    margin-bottom: 75px
+}
+
+.template .icon2{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 77px;
+    height: 77px;
+    border-radius: 300px;
+    background-image: url("planning%20tool.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    background-color: white;
+    margin-left: 79px
+}
+
+.template:hover .icon2{
+    width: 77px;
+    height: 77px;
+    border-radius: 300px;
+    background-image: url("planning%20tool%20white.png");
+    background-color: #ffc000
+}
+
+.template .icon3{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 77px;
+    height: 77px;
+    border-radius: 300px;
+    background-image: url("safe%20work%20tool.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    background-color: white;
+    margin-left: 79px
+}
+
+.template:hover .icon3{
+    width: 77px;
+    height: 77px;
+    border-radius: 300px;
+    background-image: url("safe%20work%20white.png");
+    background-color: #ffc000
+}
+
+.template .icon4{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 77px;
+    height: 77px;
+    border-radius: 300px;
+    background-image: url("best%20quality%20tool.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    background-color: white;
+    margin-left: 79px
+}
+
+.template:hover .icon4{
+    width: 77px;
+    height: 77px;
+    border-radius: 300px;
+    background-image: url("best%20quality%20white.png");
+    background-color: #ffc000
+}
+
+.our-service{
+    background-repeat: no-repeat;
+    background-image: url(builder%20image.png);
+    margin-top: 5%;
+    height:528px;
+}
+
+
+.service-content{
+    margin-top: 7%;
+    
+}
+
+.repair{
+    margin-top: 5%;
+    margin-left: 1%
+}
+
+.repair h3{
+    margin-left: 20%;
+    margin-top: -9%
+}
+
+.repair p{
+    margin-left: 20%;
+    font-size: 13px;
+    margin-top: 2%
+        
+}
+
+.completed_project{
+    margin-top: 5%;
+    background-image: url(points%20image.png);
+    height: 244px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: white
+}
+
+.completed_project .points{
+    margin-top: 5%;
+    text-align: center
+}
+
+.offering{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.offering span{
+    color:#ffc000;
+}
+
+.offers{
+    margin-bottom: 5% 
+}
+
+.offers h2{
+    font-size:  25px;
+}
+
+.archi{
+    margin-bottom: 5%
+}
+
+.archi h2{
+    margin-left: 33%;
+    margin-top: -13%
+}
+
+.archi p{
+    margin-left: 33%
+}
+
+.projects{
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+.projects span{
+    color:#ffc000;
+}
+
+.pro-nav{
+    text-align: center;
+}
+
+.pro-nav li{
+    display: inline-block;
+    margin: 3%
+}
+
+.pro-menu a{
+    text-decoration: none;
+    color: black
+}
+
+.pro-menu:hover a{
+    color: #ffc000
+}
+
+.overlay{
+    background: #ffc000;
+     width: 25%;
+    height:59.8%;
+    
+    z-index: 1;
+    position: absolute;
+    margin-top: -30%;
+    opacity: 0;
+    
+}
+
+.overlay:hover{
+    opacity: 50%;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.gallery .image{
+    width: 402px;
+    height: 459px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center
+}
+
+.members{
+    text-align: center;
+    margin-top: 5%;
+    
+    
+}
+
+.members span{
+    color:#ffc000;
+}
+
+.manager-name{
+    background-color: #2d3e50;
+    height: 400px;
+    width: 350px;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%
+}
+
+.manager-name img{
+    height: 148px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 0px 50px 0px
+}
+
+.manager-name p{
+    font-size: 13px;
+    color: #ffc000
+}
+
+.social img{
+    width: 39px;
+    height: 39px;
+}
+
+.social{
+    margin: -39px 35px 0px 35px
+}
+
+.testimonial{
+    height: 805px;
+    background-color: #f4f4f4 
+}
+
+.test{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.test span{
+    color:#ffc000;
+}
+
+.testimonial .col-md-12{
+    margin-left: 17px
+}
+
+.testimonial .col-lg-12{
+    justify-content: center
+}
+
+.client{
+    width: 920px;
+    height: 434px;
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 25px;
+    
+}
+
+.client img{
+    margin-top: 25px;
+    margin-left: 50px
+}
+
+.client h3{
+    margin-left: 200px;
+    margin-top: -10%
+}
+
+.client p{
+    margin-left: 200px;
+    font-size: 11px;
+}
+
+.owner-content{
+    font-size: 13px;
+    margin-left: 10%;
+    margin-top: 5%;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-style: italic
+}
+
+.star{
+    margin-left: 10%;
+    margin-top: 3%
+}
+
+.checked{
+    color: #ffc000
+}
+
+.world{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%
+    
+}
+
+.world span{
+    color: #ffc000;
+}
+
+.news-image{
+    height: 493px;
+    width:303px;
+    background-color: #ffc000;
+    color:white;
+    margin-bottom: 5%
+}
+
+.news-image h3{
+    letter-spacing: 1px;
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+
+.news-image p{
+    margin-left: 35px
+}
+
+.news-image li{
+    display: inline;
+    margin: 25px
+}
+
+.news-image a{
+    text-decoration: none;
+    color: #2d3e50
+}
+
+.news-image col-sm-12{
+    width: 25%
+}
+
+.jan1{
+    margin-left: 35px;
+    float: left;
+    margin-top: 15px;
+}
+
+.read{
+    float: right;
+    margin-top: 15px;
+    margin-right: 35px
+}
+
+.news{
+    margin-left: 5%;
+    margin-bottom: 5%
+}
+
+.footer h3{
+    text-align: center;
+    margin-bottom: 3%
+}
+
+.subenter{
+    margin-left: 40%;
+    margin-bottom: 5%
+    
+}
+
+.enter{
+    border-radius: 300px;
+    width: 25%;
+    height: 6vh;
+    border: none;
+    background: #f0f0f0;
+    position: absolute;
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+    
+}
+
+.subscribe{
+    border-radius: 300px;
+    width: 18%;
+    height: 6vh;
+    margin-left: 23.7%;
+    position: absolute;
+    z-index: 2;
+    background-color: #ffc000;
+    position: relative;
+    color: white;
+    
+        
+}
+
+.subscribe h3{
+    color: white;
+    margin-top: 5px
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 5%
+}
+
+
+
+
+
+
+.banner-image{
+        background-image: url('banner%20construct.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        min-height: 805px;
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+     
+ .banner-image .slideshow{
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    .slideshow h1{font-size:72px;
+    color:white;}
+    .slideshow p{
+               font-size: 16px;
+    margin: 63px 0px;
+            padding: 0px 170px;
+        color: white;
+    }
+    .carousal-edit{
+            padding: 0px 150px;
+    }
+
+ .btn-warning{
+            height: 63px;
+    width: 273px;
+    border-radius: 100px;
+        color:white;
+        font-size:18px;
+      }
+    .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: -110px 0px;
+    list-style: none;
+        text-align: center;}
+   .navbar-light .navbar-nav .nav-link:hover
+    {color:#ffc000;
+    transition:all 0.5s;}
+
+
+
+
+.banner-slider img{
+    width: 100%;
+    height: 75vh
+}
